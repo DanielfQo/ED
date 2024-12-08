@@ -121,7 +121,7 @@ NodoBPTree* BPTree::buscar(int clave) {
 }
 
 int main() {
-    BPTree arbol(3); // Aquí defines el valor de maxNodos
+    BPTree arbol(3);
     arbol.insertar(10);
     arbol.insertar(20);
     arbol.insertar(5);
